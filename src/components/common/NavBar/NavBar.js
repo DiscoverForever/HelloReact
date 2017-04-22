@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { hashHistory } from 'react-router';
 import  './NavBar.scss';
 
 class NavBar extends Component {
@@ -11,6 +12,7 @@ class NavBar extends Component {
      * @param {Number} tabId 
      */
     handleTab(tabId) {
+        hashHistory.push({pathname:'login', state: {username:'1111', password: '2222'}});
         console.log(tabId);
     }
     render() {

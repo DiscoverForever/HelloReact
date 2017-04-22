@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Router, Route, hashHistory } from 'react-router';
 
 class title extends Component {
+    // 
+    static propTypes = { name: React.PropTypes.string.isRequired };
     constructor(props) {
         super(props);
         this.state = { showText: "Test" };
@@ -20,7 +22,7 @@ class title extends Component {
     render() {
         return (
             <div>
-                <h1>Hello World {this.props.name}</h1>
+                <h1>title {this.props.name}</h1>
             </div>
         );
     }
