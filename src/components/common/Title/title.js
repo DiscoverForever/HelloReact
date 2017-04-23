@@ -3,7 +3,6 @@ import { Router, Route, hashHistory } from 'react-router';
 
 class title extends Component {
     // 
-    static propTypes = { name: React.PropTypes.string.isRequired };
     constructor(props) {
         super(props);
         this.state = { showText: "Test" };

@@ -3,10 +3,10 @@
 
 import React from 'react';
 import ReactDom from 'react-dom';
-import Title from './common/title';
+import Title from './common/title/title';
 import { Router, Route, hashHistory, Link } from 'react-router';
 import Login from './login/login';
-import NavBar from './common/navBar/NavBar';
+import NavBar from './common/NavBar/NavBar';
 import '../styles/reset.scss';
 import '../styles/rem.scss';
 
