@@ -31,7 +31,7 @@ class NavBar extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="nav-wrapper">
         <ul>
           <li onClick={() => {
             this.handleTab(0);
